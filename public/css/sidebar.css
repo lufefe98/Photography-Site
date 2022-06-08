@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar {
+    position: fixed;
+    right: -25%;
+    width: 25%;
+    height: 100%;
+    /* border-right: black solid 1px; */
+    background: #fff;
+    transition: all .5s ease;
+    z-index: 100;
+}
+header {
+    text-decoration-color: black;
+}
+.sidebar header {
+    font-size: 140%;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    background: #fff;
+    user-select: none;
+}
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    font-size: 115%;
+    color: black;
+    padding-right: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff1a;
+    border-bottom: 1px solid black;
+    transition: .5s;
+}
+ul li a {
+    margin-left: 10%;
+}
+ul li:hover a {
+    padding-left: 20px;
+}
+.sidebar ul a {
+    margin-right: 16px;
+}
+#check {
+    display: none;
+}
+label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+}
+label #btn {
+    text-align: center;
+    right: 20px;
+    top: 5px;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    border-radius: 50px;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel {
+    z-index: 1111;
+    right: -22%;
+    width: 20px;
+    height: 25px;
+    font-size: 25px;
+    display: none;
+    text-align: center;
+    color: black;
+    background: #fff;
+    border-radius: 60px;
+    padding: 4px 9px;
+    transition: all .8s ease;
+}
+#check:checked ~ .sidebar {
+    right: 0;
+}
+#check:checked ~ label #btn {
+    right: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel {
+    display: block;
+    right: 5px;
+}
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    font-size: 1.75rem;
+    z-index: 1000;
+}
+#head-h2 {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 100%; 
+    float: left;
+    z-index: 10;
+    opacity: 1;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
