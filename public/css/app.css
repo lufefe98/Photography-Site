@@ -62,16 +62,22 @@ hr.hr-5 {
 .header-texts {
     font-size: 5rem;
 }
+.khanda {
+    color: #fff;
+}
 .header-links {
     display: flex;
-    flex-direction: row wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 50%;
     margin-top: 2.5%;
 }
 .collection-head-links {
+    margin: auto;
     color: #fff;
     font-weight: 700;
+    overflow: hidden;
 }
 .collection-head-links:hover, .blog-head-links:hover {
     text-decoration: underline double #fc3355 1px;
@@ -154,12 +160,12 @@ hr.hr-5 {
 .main-cards {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .main-left-card {
     width: 35vw;
-    height: 90vh;
+    height: 95vh;
     margin-top: 5%;
     margin-right: 2.5%;
     border: 1px solid #9e99993d;
@@ -168,7 +174,7 @@ hr.hr-5 {
 }
 .main-right-card {
     width: 35vw;
-    height: 90vh;
+    height: 95vh;
     margin-top: 5%;
     margin-left: 2.5%;
     border: 1px solid rgba(158, 153, 153, 0.24);
@@ -189,6 +195,7 @@ hr.hr-5 {
     background: #fff;
 }
 .card-title {
+    margin-left: 1%;
     opacity: 0.5;
     font-size: 4rem;
     font-weight: 700;
@@ -197,9 +204,16 @@ hr.hr-5 {
 .card-description {
     width: 75%;
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
     margin-left: 2.5%;
     text-align: left;
     color: #2f4f4f;
+}
+.cards:hover .card-title {
+    text-decoration: underline;
+}
+.cards:hover .blog-category {
+    text-decoration: underline;
 }
 
 
@@ -229,7 +243,8 @@ footer {
 }
 .footer-section {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 33%;
     margin: auto;
@@ -496,6 +511,7 @@ footer {
 }
 .blog-category {
     font-size: 1.2rem;
+    margin-left: 1%;
 }
 .blog-link-btn {
     width: 10%;
@@ -534,7 +550,7 @@ footer {
 .blog-links-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -633,7 +649,8 @@ ul .about-li {
 }
 .about-socials {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 50%;
     height: 15%;
@@ -897,3 +914,24 @@ input[type="submit"]:hover {
     line-height: 25px;
 }
 
+
+
+
+
+/* order of properties */
+
+/* 
+    display
+    positioning and related
+    height and width
+    background
+    spacing/box-model and border
+    text
+        size
+        alignment
+        color
+    colors
+    animations/transitions
+
+    by default, keep the background image at the top
+ */
