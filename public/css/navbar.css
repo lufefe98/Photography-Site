@@ -10,7 +10,7 @@
     width: 25%;
     z-index: 100;
     height: 100%;
-    background: #fff;
+    background: #fdfdfd;
     transition: all .5s ease;
     /* border-right: black solid 1px; */
     /* overflow: scroll; */
@@ -20,12 +20,15 @@ header {
     text-decoration-color: black;
     font-family: 'Allura', cursive;
 }
+.sidebar-ul {
+    margin-top: 25%;
+}
 .sidebar header {
     text-align: center;
     line-height: 70px;
     font-size: 150%;
     color: black;
-    background: #fff;
+    background: #fdfdfd;
     user-select: none;
 }
 .sidebar ul a {
@@ -56,7 +59,7 @@ ul li:hover a {
 label #btn, label #cancel {
     position: absolute;
     cursor: pointer;
-    background: #fff;
+    background: #fdfdfd;
     border-radius: 3px;
 }
 label #btn {
