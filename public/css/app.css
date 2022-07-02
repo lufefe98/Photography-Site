@@ -2,7 +2,7 @@
 body, html {
     background: #fff;
     height: 100vh;
-    max-width: 100vw;
+    max-width: 100%;
     font-family: 'Raleway', sans-serif;
 }
 a {
@@ -62,9 +62,6 @@ hr.hr-5 {
 .header-texts {
     font-size: 5rem;
 }
-.khanda {
-    color: #fff;
-}
 .header-links {
     display: flex;
     flex-direction: row;
@@ -94,7 +91,7 @@ hr.hr-5 {
     flex-direction: column;
     align-items: flex-end;
     position: fixed;
-    top: 0;
+    top: 0px;
     right: 55%;
     margin-top: 10%;
     text-align: right;
@@ -130,7 +127,7 @@ hr.hr-5 {
     display: flex;
     justify-content: flex-start;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
     background-color: #000;
 }
@@ -138,8 +135,8 @@ hr.hr-5 {
     flex: 1;
     position: relative;
     z-index: 12;
-    width: 60vw;
-    max-width: 60vw;
+    width: 60%;
+    max-width: 770px;
     padding-top: 11%;
     padding-right: 39px;
     overflow-y: scroll;
@@ -608,7 +605,7 @@ footer {
 /* About */
 .about-display {
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-color: #975097;
     color: #fff;
 }
@@ -619,7 +616,7 @@ footer {
     background-position: center center;
     position: sticky;
     height: 100vh;
-    width: 40vw;
+    width: 40%;
     box-sizing: border-box;
 }
 .right-pars {
@@ -652,7 +649,7 @@ ul .about-li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 50%;
+    width: 80%;
     height: 15%;
     color: #fff;
 }
@@ -689,7 +686,7 @@ ul .about-li {
     background-position: center center; 
     position: sticky;
     height: 100vh;
-    width: 40vw;
+    width: 40%;
     box-sizing: border-box;
 }
 .contact-info {
@@ -706,7 +703,7 @@ ul .about-li {
 }
 .contact-display {
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-color: #008080;
     color: #fff;
 }
@@ -846,12 +843,12 @@ input[type="submit"]:hover {
     background-position: center center; 
     position: sticky;
     height: 100vh;
-    width: 40vw;
+    width: 40%;
     box-sizing: border-box;
 }
 .services-display {
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-color: #65bbdd;
     color: #fff;
 }
@@ -868,7 +865,7 @@ input[type="submit"]:hover {
     color: #635f5f1c;
 }
 .services {
-    flex: 40%;
+    /* flex: 60%; */
     position: relative;
     margin-right: 15px;
     margin-left: 15px;
@@ -913,25 +910,3 @@ input[type="submit"]:hover {
     font-size: 90%;
     line-height: 25px;
 }
-
-
-
-
-
-/* order of properties */
-
-/* 
-    display
-    positioning and related
-    height and width
-    background
-    spacing/box-model and border
-    text
-        size
-        alignment
-        color
-    colors
-    animations/transitions
-
-    by default, keep the background image at the top
- */
