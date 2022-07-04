@@ -88,11 +88,16 @@
 
 
   /* CONTACT */
-
+  .contact-left-header {
+    right: 50%;
+  }
 
   /* SERVICES */
   .services-left {
     background-position: 0px 0px, 69% 50%;
+  }
+  .services-left-header {
+    right: 50%;
   }
 }
 
