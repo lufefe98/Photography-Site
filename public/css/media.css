@@ -276,8 +276,13 @@
   .contact-info {
     display: none;
   }
+
   .contact-background-text {
     display: none;
+  }
+
+  .contact-content {
+    padding-top: 0%;
   }
 
 
