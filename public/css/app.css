@@ -136,7 +136,6 @@ hr.hr-5 {
     position: relative;
     z-index: 12;
     width: 60%;
-    max-width: 770px;
     padding-top: 11%;
     padding-right: 39px;
     overflow-y: scroll;
@@ -865,15 +864,17 @@ input[type="submit"]:hover {
     color: #635f5f1c;
 }
 .services {
-    /* flex: 60%; */
+    flex: 60%;
     position: relative;
+    /* border-top: 1px solid hsla(0, 0%, 100%, 0.3);
+    color: #fff;
+    text-align: left; */
     margin-right: 15px;
     margin-left: 15px;
     padding-top: 24px;
     padding-bottom: 40px;
     padding-left: 100px;
     border-top: 1px solid hsla(0, 0%, 100%, 0.3);
-    font-size: 20px;
     text-align: left;
     color: #fff;
 }
@@ -907,6 +908,6 @@ input[type="submit"]:hover {
 }
 .services-text {
     margin-top: 14px;
-    font-size: 90%;
-    line-height: 25px;
+    font-size: small;
+    line-height: 24px;
 }
