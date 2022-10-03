@@ -1,16 +1,25 @@
 {
-  "name": "webdevprojects",
+  "name": "photography",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CSS project\r This project was made with the aim of creating an aesthetically appealing and simple css project that displays a photographer's works and services that they can provide in a simple and capturing manner to people who are interested in the services of a photographer.\r I aim to do this through well positioned elements and choosing that colors blend well with each other.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "lufefe98",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lufefe98/Photography-Site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lufefe98/Photography-Site/issues"
+  },
+  "homepage": "https://github.com/lufefe98/Photography-Site#readme"
 }
