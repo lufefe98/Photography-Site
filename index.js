@@ -57,4 +57,3 @@ app.get('/services', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('pages/about')
 })
-
