@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/lufefe98/Photography-Site/issues"
   },
-  "homepage": "https://github.com/lufefe98/Photography-Site#readme"
+  "homepage": "https://github.com/lufefe98/Photography-Site#readme",
+  "devDependencies": {}
 }
