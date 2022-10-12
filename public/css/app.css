@@ -500,17 +500,18 @@ img {
 .blog-link-btn {
     width: 10%;
     height: 3rem;
+    padding: 0;
     background: #9e9999;
     margin-left: 2.5%;
     margin-right: 2.5%;
+    padding-top: 10px;
     border: 0;
     border-radius: 2.5rem;
+    text-align: center;
     font-size: 1.25rem;
-    color: #fff;
-}
-.blog-head-links{
-    color: #fff;
     font-weight: 700;
+    color: #fff;
+    box-sizing: border-box;
 }
 .blog-card {
     width: 25vw;
@@ -520,11 +521,7 @@ img {
     margin-bottom: 5%;
     border: 1px solid rgba(158, 153, 153, 0.24);
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
-    /* background: #ff0000; */
 }
-/* .card-img:hover {
-    zoom: 1%;
-} */
 .blog-link-btn:hover {
     background: #313030;
 }
