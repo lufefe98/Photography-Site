@@ -221,6 +221,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     bottom: 0;
     height: 20%;
     width: 100%;
@@ -412,6 +413,68 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "left right"
+        "wide wide";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 5% auto 5%;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+.collection1 {
+    grid-area: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "top-left top-right"
+    "across across";
+    gap: 2px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.collection2 {
+    grid-area: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "across across"
+    "bottom-left bottom-right";
+    gap: 2px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.collection3 {
+    grid-area: wide;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-left {
+    grid-area: top-left;
+}
+.top-right {
+    grid-area: top-right;
+}
+.bottom-left {
+    grid-area: bottom-left;
+}
+.bottom-right {
+    grid-area: bottom-right;
+}
+.across {
+    grid-area: across;
 }
 
 
