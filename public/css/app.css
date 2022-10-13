@@ -246,6 +246,13 @@ footer {
     margin: auto;
     margin-bottom: 5%;
 }
+.footer-social:hover {
+    color: #c5c5c5;
+    text-decoration: underline solid 2px;
+}
+.h2-footer:hover {
+    color: #c5c5c5;
+}
 
 
 
