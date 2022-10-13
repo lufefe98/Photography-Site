@@ -432,7 +432,7 @@ footer {
     grid-template-areas:
     "top-left top-right"
     "across across";
-    gap: 2px;
+    gap: 3px;
     box-sizing: border-box;
     box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
@@ -443,7 +443,7 @@ footer {
     grid-template-areas:
     "across across"
     "bottom-left bottom-right";
-    gap: 2px;
+    gap: 3px;
     box-sizing: border-box;
     box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
@@ -451,7 +451,7 @@ footer {
     grid-area: wide;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2px;
+    gap: 3px;
     box-sizing: border-box;
     box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
