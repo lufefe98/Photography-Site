@@ -76,7 +76,7 @@ hr.hr-5 {
     font-weight: 700;
     overflow: hidden;
 }
-.collection-head-links:hover, .blog-head-links:hover {
+.collection-head-links:hover {
     text-decoration: underline double #fc3355 1px;
     transition: ease .5s;
 }
