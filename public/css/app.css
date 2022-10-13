@@ -274,6 +274,7 @@ footer {
     width: 25%;
     height: 3rem;
     border: 0;
+    transition: ease .2s;
     background: #fc3355;
     border-radius: 2.5rem;
     font-size: 1.25rem;
@@ -281,7 +282,6 @@ footer {
 }
 .more-btn:hover {
     width: 30%;
-    transition: all ease-in-out .2s;
 }
 .more-link {
     color: #fff;
@@ -809,6 +809,7 @@ input[type="submit"] {
     margin-top: 5%;
     border-color: transparent;
     border-radius: 2.5rem;
+    transition: ease .25s;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0;
@@ -819,7 +820,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     width: 12.5rem;
     letter-spacing: 2px;
-    transition: all ease-out .25s;
     cursor: pointer;
 }
 
