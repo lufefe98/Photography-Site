@@ -75,10 +75,10 @@ hr.hr-5 {
     color: #fff;
     font-weight: 700;
     overflow: hidden;
+    transition: ease .8s;
 }
 .collection-head-links:hover {
     text-decoration: underline double #fc3355 1px;
-    transition: ease .5s;
 }
 .header-space {
     color: #fc3355;
@@ -164,18 +164,18 @@ hr.hr-5 {
     height: 95vh;
     margin-top: 5%;
     margin-right: 2.5%;
+    border-radius: 5px;
     border: 1px solid #9e99993d;
     box-shadow: 0 2px 4px 0 #0000001f;
-    /* background: #ff0000; */
 }
 .main-right-card {
     width: 35vw;
     height: 95vh;
     margin-top: 5%;
     margin-left: 2.5%;
+    border-radius: 5px;
     border: 1px solid rgba(158, 153, 153, 0.24);
     box-shadow: 0 2px 4px 0 #0000001f;
-    /* background: #ff0000; */
 }
 .card-top {
     display: block;
@@ -185,6 +185,8 @@ hr.hr-5 {
     display: block;
     width: 100%;
     height: 60vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .card-body {
     width: 100%;
@@ -246,6 +248,13 @@ footer {
     margin: auto;
     margin-bottom: 5%;
 }
+.footer-social:hover {
+    color: #c5c5c5;
+    text-decoration: underline solid 2px;
+}
+.h2-footer:hover {
+    color: #c5c5c5;
+}
 
 
 
@@ -262,6 +271,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 .more-div {
     display: flex;
@@ -271,17 +281,17 @@ footer {
     margin-top: 5%;
 }
 .more-btn {
-    width: 25%;
+    width: 17.5%;
     height: 3rem;
     border: 0;
+    transition: ease .2s;
     background: #fc3355;
     border-radius: 2.5rem;
     font-size: 1.25rem;
     color: #fff;
 }
 .more-btn:hover {
-    width: 30%;
-    transition: all ease-in-out .2s;
+    width: 20%;
 }
 .more-link {
     color: #fff;
@@ -300,6 +310,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* beach */
@@ -312,6 +323,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* clouds */
@@ -324,6 +336,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* food */
@@ -336,6 +349,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* nature */
@@ -348,6 +362,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* night */
@@ -360,6 +375,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* street */
@@ -372,6 +388,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* sunrise */
@@ -384,6 +401,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* sunset */
@@ -396,6 +414,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 
@@ -412,6 +431,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 .container {
@@ -500,6 +520,7 @@ img {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 .blog-category {
     font-size: 1.2rem;
@@ -527,6 +548,7 @@ img {
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-radius: 5px;
     border: 1px solid rgba(158, 153, 153, 0.24);
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
 }
@@ -564,6 +586,7 @@ img {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* travel */
@@ -576,6 +599,7 @@ img {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* tutorial */
@@ -588,6 +612,7 @@ img {
     flex-direction: column;
     width: 100%;
     height: 50vh;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 
@@ -809,6 +834,7 @@ input[type="submit"] {
     margin-top: 5%;
     border-color: transparent;
     border-radius: 2.5rem;
+    transition: ease .25s;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0;
@@ -819,7 +845,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     width: 12.5rem;
     letter-spacing: 2px;
-    transition: all ease-out .25s;
     cursor: pointer;
 }
 
