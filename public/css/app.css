@@ -193,6 +193,7 @@ hr.hr-5 {
     background: #fff;
 }
 .card-title {
+    position: relative;
     margin-left: 1%;
     opacity: 0.5;
     font-size: 4rem;
@@ -200,6 +201,7 @@ hr.hr-5 {
     text-transform: uppercase;
 }
 .card-description {
+    position: relative;
     width: 75%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -207,11 +209,102 @@ hr.hr-5 {
     text-align: left;
     color: #2f4f4f;
 }
-.cards:hover .card-title {
-    text-decoration: underline;
+
+/* card hovers */
+.card-title::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: 5px;
+    transform: scaleX(0);
+    background: #696868;
+    transform-origin: bottom left;
+    transition: transform 0.45s ease-out;
 }
-.cards:hover .blog-category {
-    text-decoration: underline;
+.beach:after {
+    width: 230px;
+}
+.clouds:after {
+    width: 280px;
+}
+.food:after {
+    width: 200px;
+}
+.nature:after {
+    width: 275px;
+}
+.night:after {
+    width: 380px;
+}
+.street:after {
+    width: 260px;
+}
+.sunrise:after {
+    width: 330px;
+}
+.sunset:after {
+    width: 310px;
+}
+
+.cards:hover .card-title:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+
+
+.personal:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 1px;
+    width: 90px;
+    transform: scaleX(0);
+    background: #00ffff;
+    transform-origin: bottom left;
+    transition: transform 0.45s ease-out;
+}
+.travel:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 1px;
+    width: 65px;
+    transform: scaleX(0);
+    background: #0da008;
+    transform-origin: bottom left;
+    transition: transform 0.45s ease-out;
+}
+.tutorial:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 1px;
+    width: 80px;
+    transform: scaleX(0);
+    background: #fc3355;
+    transform-origin: bottom left;
+    transition: transform 0.45s ease-out;
+}
+
+.cards:hover .personal:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.cards:hover .travel:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.cards:hover .tutorial:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 
@@ -567,12 +660,15 @@ img {
     margin-bottom: 2.5%;
 }
 .tutorial {
+    position: relative;
     color: #fc3355;
 }
 .personal {
+    position: relative;
     color: aqua;
 }
 .travel {
+    position: relative;
     color: #0da008;
 }
 
