@@ -71,18 +71,59 @@ hr.hr-5 {
     margin-top: 2.5%;
 }
 .collection-head-links {
+    position: relative;
     margin: auto;
     color: #fff;
     font-weight: 700;
-    overflow: hidden;
-    transition: ease .8s;
-}
-.collection-head-links:hover {
-    text-decoration: underline double #fc3355 1px;
+    /* overflow: hidden; */
+    /* transition: ease .8s; */
 }
 .header-space {
     color: #fc3355;
 }
+
+/* hover links */
+.collection-head-links:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 2px;
+    transform: scaleX(0);
+    background: #fc3355;
+    transform-origin: bottom left;
+    transition: transform 0.45s ease-out;
+}
+.collection-head-links:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.beach-link:after {
+    width: 55px;
+}
+.clouds-link:after {
+    width: 60px;
+}
+.food-link:after {
+    width: 45px;
+}
+.nature-link:after {
+    width: 60px;
+}
+.night-link:after {
+    width: 90px;
+}
+.street-link:after {
+    width: 55px;
+}
+.sunrise-link:after {
+    width: 70px;
+}
+.sunset-link:after {
+    width: 65px;
+}
+
 
 /* for the pages with a double display where the left side is fixed */
 
