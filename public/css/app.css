@@ -880,7 +880,7 @@ ul .about-li {
     border: #4471ca solid 2px;
 }
 .insta:hover {
-    border: 2px solid #fff;
+    border: 2px solid #975097;
     box-sizing: border-box;
     background-image: linear-gradient(to top left, #f58529, #feda77, #dd2a7b, #8134af, #515bd4);
 }
