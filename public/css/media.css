@@ -20,6 +20,7 @@
 }
 
 @media screen and (max-width: 992px) {
+
   /* Navbar */
 
   /* sidebar */
@@ -29,7 +30,7 @@
 
   /* home head */
   .header-links {
-    width: 80%;
+    width: 100%;
   }
 
   /* main home page */
@@ -47,23 +48,67 @@
   .main-left-card {
     width: 45vw;
     margin-right: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
   }
 
   .main-right-card {
     width: 45vw;
     margin-left: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
   }
 
   .card-title {
     font-size: 3rem;
   }
 
+  /* card hovers */
+  .card-title::after {
+    top: 50px;
+    height: 5px;
+  }
+
+  .beach:after {
+    width: 170px;
+  }
+
+  .clouds:after {
+    width: 205px;
+  }
+
+  .food:after {
+    width: 145px;
+  }
+
+  .nature:after {
+    width: 200px;
+  }
+
+  .night:after {
+    width: 285px;
+  }
+
+  .street:after {
+    width: 190px;
+  }
+
+  .sunrise:after {
+    width: 245px;
+  }
+
+  .sunset:after {
+    width: 225px;
+  }
+
+
   /* BLOGS */
   .blog-card {
     width: 30vw;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
+  }
+
+  .blog-link-btn {
+    width: 20%;
+    font-size: 1.25rem;
   }
 
   /* FOOTER */
@@ -81,6 +126,7 @@
   }
 
   /* ABOUT */
+
 
 
   /* CONTACT */
@@ -163,81 +209,28 @@
   }
 
   /* main home page */
-  .more-btn {
-    width: 40%;
-    border-radius: 2.5rem;
-    font-size: 1.25rem;
-  }
 
-  .more-btn:hover {
-    width: 50%;
-  }
 
   /* cards */
   .main-left-card {
     width: 66vw;
-    margin-right: 0%;
-    margin-bottom: 5%;
   }
 
   .main-right-card {
     width: 66vw;
-    margin-left: 0%;
-    margin-bottom: 5%;
   }
 
-  .card-title {
-    font-size: 3rem;
-  }
 
-    /* card hovers */
-    .card-title::after {
-      top: 50px;
-      height: 5px;
-    }
 
-    .beach:after {
-      width: 170px;
-    }
-  
-    .clouds:after {
-      width: 205px;
-    }
-  
-    .food:after {
-      width: 145px;
-    }
-  
-    .nature:after {
-      width: 200px;
-    }
-  
-    .night:after {
-      width: 285px;
-    }
-  
-    .street:after {
-      width: 190px;
-    }
-  
-    .sunrise:after {
-      width: 245px;
-    }
-  
-    .sunset:after {
-      width: 225px;
-    }
+
 
   /* BLOGS */
   .blog-card {
     width: 66vw;
-    margin-bottom: 5%;
   }
 
-  .blog-link-btn {
-    width: 20%;
-    font-size: 1.25rem;
-  }
+
+
 
   /* ABOUT */
   .about-display {
@@ -460,7 +453,6 @@
 
   .blog-link-btn {
     margin-top: 5%;
-    width: 20%;
     height: 40px;
     font-size: 1rem;
   }
