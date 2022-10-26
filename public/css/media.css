@@ -1,36 +1,78 @@
 /* Max-Width */
 @media screen and (max-width: 1115px) {
 
+  /* Home */
+
+  /* main home page */
+  .more-btn {
+    width: 30%;
+    border-radius: 2.5rem;
+    font-size: 1.25rem;
+  }
+
+  .more-btn:hover {
+    width: 35%;
+  }
+
   /* cards */
   .main-left-card {
     width: 40vw;
     margin-right: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
   }
 
   .main-right-card {
     width: 40vw;
     margin-left: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
   }
 
   .card-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
+
+    /* card hovers */
+    .card-title::after {
+      top: 50px;
+      height: 5px;
+    }
+  
+    .beach:after {
+      width: 170px;
+    }
+  
+    .clouds:after {
+      width: 205px;
+    }
+  
+    .food:after {
+      width: 145px;
+    }
+  
+    .nature:after {
+      width: 200px;
+    }
+  
+    .night:after {
+      width: 285px;
+    }
+  
+    .street:after {
+      width: 190px;
+    }
+  
+    .sunrise:after {
+      width: 245px;
+    }
+  
+    .sunset:after {
+      width: 225px;
+    }
 }
 
 @media screen and (max-width: 992px) {
-  /* Navbar */
 
-  /* sidebar */
-
-
-  /* HOME */
-
-  /* home head */
-  .header-links {
-    width: 80%;
-  }
+  /* Home */
 
   /* main home page */
   .more-btn {
@@ -46,28 +88,24 @@
   /* cards */
   .main-left-card {
     width: 45vw;
-    margin-right: 0%;
-    margin-bottom: 25%;
   }
 
   .main-right-card {
     width: 45vw;
-    margin-left: 0%;
-    margin-bottom: 25%;
   }
 
-  .card-title {
-    font-size: 3rem;
-  }
 
-  .card-description {
-    margin-bottom: 5%;
-  }
+
 
   /* BLOGS */
   .blog-card {
     width: 30vw;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
+  }
+
+  .blog-link-btn {
+    width: 20%;
+    font-size: 1.25rem;
   }
 
   /* FOOTER */
@@ -87,6 +125,7 @@
   /* ABOUT */
 
 
+
   /* CONTACT */
   .contact-left-header {
     right: 50%;
@@ -96,6 +135,7 @@
   .services-left {
     background-position: 0px 0px, 69% 50%;
   }
+
   .services-left-header {
     right: 50%;
   }
@@ -106,6 +146,10 @@
   /* GENERAL HTML */
 
   /* texts */
+  .main-h1 {
+    margin-top: 5%;
+  }
+
   .left-h1 {
     position: relative;
     right: 0%;
@@ -139,69 +183,51 @@
     font-size: x-large;
   }
 
-    /* FOOTER */
-    footer {
-      height: 25%;
-    }
-  
-    .footer-social {
-      margin-bottom: 2.5%;
-      margin: auto;
-    }
-  
-    .footer-section {
-      width: 80%;
-    }
+  /* FOOTER */
+  footer {
+    height: 25%;
+  }
+
+  .footer-social {
+    margin-bottom: 2.5%;
+    margin: auto;
+  }
+
+  .footer-section {
+    width: 80%;
+  }
 
   /* HOME */
 
   /* home head */
   .header-texts h1 {
     font-size: 90%;
+    margin-top: 35%;
   }
 
   /* main home page */
-  .more-btn {
-    width: 40%;
-    border-radius: 2.5rem;
-    font-size: 1.25rem;
-  }
 
-  .more-btn:hover {
-    width: 50%;
-  }
 
   /* cards */
   .main-left-card {
     width: 66vw;
-    margin-right: 0%;
-    margin-bottom: 25%;
   }
 
   .main-right-card {
     width: 66vw;
-    margin-left: 0%;
-    margin-bottom: 25%;
   }
 
-  .card-title {
-    font-size: 3rem;
-  }
 
-  .card-description {
-    margin-bottom: 5%;
-  }
+
+
 
   /* BLOGS */
   .blog-card {
     width: 66vw;
-    margin-bottom: 25%;
   }
 
-  .blog-link-btn {
-    width: 20%;
-    font-size: 1.25rem;
-  }
+
+
 
   /* ABOUT */
   .about-display {
@@ -217,7 +243,7 @@
     width: 100%;
     height: 240px;
   }
-  
+
   .about-left-header {
     position: relative;
     left: 40%;
@@ -248,7 +274,7 @@
     font-size: small;
     line-height: 28px;
   }
-  
+
 
 
 
@@ -331,32 +357,23 @@
 
 @media screen and (max-width: 676px) {
 
+  /* texts */
+  .main-h1 {
+    margin-top: 10%;
+  }
+
   /* Navbar */
   .navbar-brand {
     font-size: x-large;
   }
 
-    /* FOOTER */
-    footer {
-      height: 25%;
-    }
-  
-    .footer-social {
-      margin-bottom: 2.5%;
-      margin: auto;
-    }
-  
-    .footer-section {
-      width: 80%;
-    }
+
+
+
 
   /* HOME */
 
   /* home head */
-  .header-texts h1 {
-    font-size: 90%;
-  }
-
   .collection-head-links:nth-of-type(even) {
     display: none;
   }
@@ -370,69 +387,86 @@
   }
 
   /* main home page */
-  .more-btn {
-    width: 40%;
-    border-radius: 2.5rem;
-    font-size: 1.25rem;
-  }
 
-  .more-btn:hover {
-    width: 50%;
-  }
 
   /* cards */
   .main-left-card {
     width: 75vw;
-    margin-right: 0%;
-    margin-bottom: 25%;
   }
 
   .main-right-card {
     width: 75vw;
-    margin-left: 0%;
-    margin-bottom: 25%;
   }
 
-  .card-title {
-    font-size: 3rem;
+
+
+
+
+
+  /* GALLERY */
+  .container {
+    grid-template-areas:
+      "top top"
+      "middle middle"
+      "bottom bottom";
   }
 
-  .card-description {
-    margin-bottom: 5%;
+  .collection1 {
+    grid-area: top;
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-areas:
+      "top-left top-right"
+      "across across";
+    gap: 3px;
+  }
+
+  .collection2 {
+    grid-area: middle;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(150px, auto);
+
+    grid-template-areas:
+      "across across"
+      "bottom-left bottom-right";
+    gap: 3px;
+  }
+
+  .collection3 {
+    grid-area: bottom;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+  }
+
+  .collection3 img:nth-of-type(2) {
+    display: none;
   }
 
   /* BLOGS */
   .blog-card {
     width: 80vw;
-    margin-bottom: 25%;
   }
 
   .blog-link-btn {
-    width: 20%;
-    font-size: 1.25rem;
+    margin-top: 5%;
+    height: 40px;
+    font-size: 1rem;
   }
 
 
-    /* CONTACT */
-    .contact-left-header {
-      position: relative;
-      left: 33%;
-      margin-top: 10%;
-      text-align: center;
-    }
+  /* CONTACT */
+  .contact-left-header {
+    position: relative;
+    left: 33%;
+    margin-top: 10%;
+    text-align: center;
+  }
 
-    .contact-content {
-      padding-top: 0%;
-      padding-left: 10%;
-      padding-right: 5%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-  
-  /* Navbar */
-  .navbar-brand {
-    font-size: large;
+  .contact-content {
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 5%;
   }
 
   /* FOOTER */
@@ -446,9 +480,17 @@
   }
 
   .footer-section {
-    width: 100%;
+    width: 80%;
   }
-  
+}
+
+@media screen and (max-width: 576px) {
+
+  /* Navbar */
+
+
+
+
   /* HOME */
 
   /* home head */
@@ -457,28 +499,13 @@
   }
 
   .header-links {
-    flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
     margin-top: 2.5%;
-  }
-
-  .collection-head-links:nth-of-type(even) {
-    display: none;
-  }
-
-  .header-space:nth-of-type(even) {
-    display: none;
-  }
-
-  .header-space:nth-of-type(7) {
-    display: none;
   }
 
   /* main home page */
   .more-btn {
     width: 50%;
-    border-radius: 2.5rem;
     font-size: 1rem;
   }
 
@@ -487,36 +514,65 @@
   }
 
   /* cards */
-  .main-left-card {
-    width: 75vw;
-    margin-right: 0%;
-    margin-bottom: 25%;
-  }
-
-  .main-right-card {
-    width: 75vw;
-    margin-left: 0%;
-    margin-bottom: 25%;
-  }
-
   .card-title {
     font-size: 2rem;
   }
 
-  .card-description {
-    margin-bottom: 5%;
+  /* card hovers */
+  .card-title::after {
+    top: 35px;
+    height: 3px;
   }
 
-  /* BLOGS */
-  .blog-card {
-    width: 80vw;
-    margin-bottom: 25%;
+  .beach:after {
+    width: 110px;
   }
 
-  .blog-link-btn {
-    width: 20%;
-    font-size: 1.25rem;
+  .clouds:after {
+    width: 135px;
   }
+
+  .food:after {
+    width: 95px;
+  }
+
+  .nature:after {
+    width: 135px;
+  }
+
+  .night:after {
+    width: 190px;
+  }
+
+  .street:after {
+    width: 125px;
+  }
+
+  .sunrise:after {
+    width: 165px;
+  }
+
+  .sunset:after {
+    width: 150px;
+  }
+
+
+  /* GALLERY */
+  .collection1 {
+    gap: 2px;
+  }
+
+  .collection2 {
+    gap: 2px;
+  }
+
+  .collection3 {
+    gap: 2px;
+  }
+
+
+
+
 
   /* CONTACT */
   .contact-left-header {
@@ -527,6 +583,20 @@
   }
 
   .contact-form {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  footer {
+    height: 25%;
+  }
+
+  .footer-social {
+    margin-bottom: 2.5%;
+    margin: auto;
+  }
+
+  .footer-section {
     width: 100%;
   }
 
@@ -553,94 +623,73 @@
     margin-top: 10%;
     text-align: center;
   }
+
   .services-icon {
     position: relative;
     width: 56px;
     height: 56px;
     padding: 16px;
   }
+
   .services-h2 {
     line-height: 20px;
     font-size: 16px;
-}
+  }
 }
 
 @media screen and (max-width: 414px) {
 
+  /* texts */
+
+
   /* Navbar */
   .navbar-brand {
-    font-size: medium;
+    font-size: large;
   }
 
   /* HOME */
 
   /* home head */
-  .header-texts h1 {
-    font-size: 70%;
-  }
 
-  .header-links {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-top: 2.5%;
-    /* margin: auto; */
-  }
-
-  .collection-head-links:nth-of-type(even) {
-    display: none;
-  }
-
-  .header-space:nth-of-type(even) {
-    display: none;
-  }
-
-  .header-space:nth-of-type(7) {
-    display: none;
-  }
 
   /* main home page */
-  .more-btn {
-    width: 50%;
-    border-radius: 2.5rem;
-    font-size: 1rem;
-  }
 
-  .more-btn:hover {
-    width: 65%;
-  }
 
   /* cards */
   .main-left-card {
-    width: 75vw;
-    margin-right: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
   }
 
   .main-right-card {
-    width: 75vw;
-    margin-left: 0%;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
   }
 
   .card-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
-  .card-description {
-    margin-bottom: 5%;
+  /* card hovers */
+  .card-title::after {
+    top: 30px;
   }
+
+
+
+
 
   /* BLOGS */
   .blog-card {
-    width: 80vw;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
+  }
+  
+  .blog-links-container {
+    margin-top: 10%;
   }
 
   .blog-link-btn {
-    width: 20%;
     font-size: 1rem;
   }
+
 
   /* FOOTER */
   footer {
@@ -655,6 +704,7 @@
     width: 33%;
   }
 
+
   /* SERVICES */
   .services-left-header {
     position: relative;
@@ -664,68 +714,42 @@
   }
 }
 
-@media screen and (max-width: 360px) {
 
+
+
+
+@media screen and (max-width: 360px) {
   /* Navbar */
-  .navbar-brand {
-    font-size: medium;
-  }
+
+
+  /* sidebar */
+
 
   /* HOME */
 
   /* home head */
-  .header-texts h1 {
-    font-size: 70%;
-  }
+
 
   .header-links {
-    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    margin-top: 2.5%;
   }
 
   /* main home page */
-  .more-btn {
-    width: 50%;
-    border-radius: 2.5rem;
-    font-size: 1rem;
-  }
 
-  .more-btn:hover {
-    width: 65%;
-  }
 
   /* cards */
-  .main-left-card {
-    width: 75vw;
-    margin-right: 0%;
-    margin-bottom: 25%;
-  }
 
-  .main-right-card {
-    width: 75vw;
-    margin-left: 0%;
-    margin-bottom: 25%;
-  }
 
-  .card-title {
-    font-size: 2rem;
-  }
 
-  .card-description {
-    margin-bottom: 5%;
-  }
+
 
   /* BLOGS */
-  .blog-card {
-    width: 80vw;
-    margin-bottom: 25%;
+  .blog-links-container {
+    margin-top: 10%;
   }
 
   .blog-link-btn {
-    width: 20%;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   /* FOOTER */
