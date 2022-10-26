@@ -1,9 +1,6 @@
-/* Max-Width */
 @media screen and (max-width: 1115px) {
-
-  /* Home */
-
-  /* main home page */
+  /* HOME */
+  /* Main Home Page */
   .more-btn {
     width: 30%;
     border-radius: 2.5rem;
@@ -14,7 +11,7 @@
     width: 35%;
   }
 
-  /* cards */
+  /* Cards */
   .main-left-card {
     width: 40vw;
     margin-right: 0%;
@@ -31,50 +28,49 @@
     font-size: 3rem;
   }
 
-    /* card hovers */
-    .card-title::after {
-      top: 50px;
-      height: 5px;
-    }
-  
-    .beach:after {
-      width: 170px;
-    }
-  
-    .clouds:after {
-      width: 205px;
-    }
-  
-    .food:after {
-      width: 145px;
-    }
-  
-    .nature:after {
-      width: 200px;
-    }
-  
-    .night:after {
-      width: 285px;
-    }
-  
-    .street:after {
-      width: 190px;
-    }
-  
-    .sunrise:after {
-      width: 245px;
-    }
-  
-    .sunset:after {
-      width: 225px;
-    }
+  /* card hovers */
+  .card-title::after {
+    top: 50px;
+    height: 5px;
+  }
+
+  .beach:after {
+    width: 170px;
+  }
+
+  .clouds:after {
+    width: 205px;
+  }
+
+  .food:after {
+    width: 145px;
+  }
+
+  .nature:after {
+    width: 200px;
+  }
+
+  .night:after {
+    width: 285px;
+  }
+
+  .street:after {
+    width: 190px;
+  }
+
+  .sunrise:after {
+    width: 245px;
+  }
+
+  .sunset:after {
+    width: 225px;
+  }
 }
 
+
 @media screen and (max-width: 992px) {
-
-  /* Home */
-
-  /* main home page */
+  /* HOME */
+  /* Main Home Page */
   .more-btn {
     width: 40%;
     border-radius: 2.5rem;
@@ -95,8 +91,6 @@
   }
 
 
-
-
   /* BLOGS */
   .blog-card {
     width: 30vw;
@@ -107,6 +101,23 @@
     width: 20%;
     font-size: 1.25rem;
   }
+
+
+  /* CONTACT */
+  .contact-left-header {
+    right: 50%;
+  }
+
+
+  /* SERVICES */
+  .services-left {
+    background-position: 0px 0px, 69% 50%;
+  }
+
+  .services-left-header {
+    right: 50%;
+  }
+
 
   /* FOOTER */
   footer {
@@ -121,31 +132,12 @@
   .footer-section {
     width: 80%;
   }
-
-  /* ABOUT */
-
-
-
-  /* CONTACT */
-  .contact-left-header {
-    right: 50%;
-  }
-
-  /* SERVICES */
-  .services-left {
-    background-position: 0px 0px, 69% 50%;
-  }
-
-  .services-left-header {
-    right: 50%;
-  }
 }
 
+
 @media screen and (max-width: 767px) {
-
-  /* GENERAL HTML */
-
-  /* texts */
+  /* GENERAL HTML ELEMENTS */
+  /* Texts */
   .main-h1 {
     margin-top: 5%;
   }
@@ -159,8 +151,7 @@
   }
 
   /* BODY STRUCTURE */
-
-  /* double display pages */
+  /* Double Display Pages */
   .main-double-display {
     overflow: hidden;
     height: auto;
@@ -178,36 +169,15 @@
     display: none;
   }
 
-  /* Navbar */
-  .navbar-brand {
-    font-size: x-large;
-  }
-
-  /* FOOTER */
-  footer {
-    height: 25%;
-  }
-
-  .footer-social {
-    margin-bottom: 2.5%;
-    margin: auto;
-  }
-
-  .footer-section {
-    width: 80%;
-  }
 
   /* HOME */
-
-  /* home head */
+  /* Home Head */
   .header-texts h1 {
     font-size: 90%;
     margin-top: 35%;
   }
 
-  /* main home page */
-
-
+  /* Main Home Page */
   /* cards */
   .main-left-card {
     width: 66vw;
@@ -218,15 +188,10 @@
   }
 
 
-
-
-
   /* BLOGS */
   .blog-card {
     width: 66vw;
   }
-
-
 
 
   /* ABOUT */
@@ -276,8 +241,6 @@
   }
 
 
-
-
   /* CONTACT */
   .contact-display {
     overflow: hidden;
@@ -310,7 +273,6 @@
   .contact-content {
     padding-top: 0%;
   }
-
 
 
   /* SERVICES */
@@ -353,27 +315,34 @@
   .services-text {
     font-size: small;
   }
+
+
+  /* FOOTER */
+  footer {
+    height: 25%;
+  }
+
+  .footer-social {
+    margin-bottom: 2.5%;
+    margin: auto;
+  }
+
+  .footer-section {
+    width: 80%;
+  }
 }
 
-@media screen and (max-width: 676px) {
 
-  /* texts */
+@media screen and (max-width: 676px) {
+  /* GENERAL HTML ELEMENTS */
+  /* Texts */
   .main-h1 {
     margin-top: 10%;
   }
 
-  /* Navbar */
-  .navbar-brand {
-    font-size: x-large;
-  }
-
-
-
-
 
   /* HOME */
-
-  /* home head */
+  /* Home Head */
   .collection-head-links:nth-of-type(even) {
     display: none;
   }
@@ -386,9 +355,7 @@
     display: none;
   }
 
-  /* main home page */
-
-
+  /* Main Home Page */
   /* cards */
   .main-left-card {
     width: 75vw;
@@ -397,10 +364,6 @@
   .main-right-card {
     width: 75vw;
   }
-
-
-
-
 
 
   /* GALLERY */
@@ -425,7 +388,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(150px, auto);
-
     grid-template-areas:
       "across across"
       "bottom-left bottom-right";
@@ -442,6 +404,7 @@
   .collection3 img:nth-of-type(2) {
     display: none;
   }
+
 
   /* BLOGS */
   .blog-card {
@@ -469,6 +432,7 @@
     padding-right: 5%;
   }
 
+
   /* FOOTER */
   footer {
     height: 25%;
@@ -484,16 +448,10 @@
   }
 }
 
+
 @media screen and (max-width: 576px) {
-
-  /* Navbar */
-
-
-
-
   /* HOME */
-
-  /* home head */
+  /* Home Head */
   .header-texts h1 {
     font-size: 70%;
   }
@@ -503,7 +461,7 @@
     margin-top: 2.5%;
   }
 
-  /* main home page */
+  /* Main Home Page */
   .more-btn {
     width: 50%;
     font-size: 1rem;
@@ -571,9 +529,6 @@
   }
 
 
-
-
-
   /* CONTACT */
   .contact-left-header {
     position: relative;
@@ -585,6 +540,7 @@
   .contact-form {
     width: 100%;
   }
+
 
   /* FOOTER */
   footer {
@@ -599,22 +555,23 @@
   .footer-section {
     width: 100%;
   }
-
 }
+
 
 @media screen and (max-width: 479px) {
   /* GENERAL HTML */
-
-  /* texts */
+  /* Texts */
   .left-h1 {
     font-size: 27px;
     letter-spacing: 5px;
   }
 
+
   /* ABOUT */
   .about-socials {
     flex-wrap: nowrap;
   }
+
 
   /* SERVICES */
   .services-left-header {
@@ -637,23 +594,10 @@
   }
 }
 
+
 @media screen and (max-width: 414px) {
-
-  /* texts */
-
-
-  /* Navbar */
-  .navbar-brand {
-    font-size: large;
-  }
-
   /* HOME */
-
-  /* home head */
-
-
-  /* main home page */
-
+  /* Main Home Page */
 
   /* cards */
   .main-left-card {
@@ -674,14 +618,11 @@
   }
 
 
-
-
-
   /* BLOGS */
   .blog-card {
     margin-bottom: 10%;
   }
-  
+
   .blog-links-container {
     margin-top: 10%;
   }
@@ -715,32 +656,12 @@
 }
 
 
-
-
-
 @media screen and (max-width: 360px) {
-  /* Navbar */
-
-
-  /* sidebar */
-
-
   /* HOME */
-
   /* home head */
-
-
   .header-links {
     justify-content: center;
   }
-
-  /* main home page */
-
-
-  /* cards */
-
-
-
 
 
   /* BLOGS */
@@ -751,6 +672,7 @@
   .blog-link-btn {
     font-size: 0.8rem;
   }
+
 
   /* FOOTER */
   footer {
