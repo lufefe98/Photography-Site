@@ -72,12 +72,7 @@
 
 @media screen and (max-width: 992px) {
 
-  /* Navbar */
-
-  /* sidebar */
-
-
-
+  /* Home */
 
   /* main home page */
   .more-btn {
@@ -671,6 +666,11 @@
 
   .card-title {
     font-size: 1.5rem;
+  }
+
+  /* card hovers */
+  .card-title::after {
+    top: 30px;
   }
 
 
