@@ -407,18 +407,18 @@ footer {
 .more-btn {
     width: 17.5%;
     height: 3rem;
+    padding-top: 10px;
     border: 0;
     transition: ease .2s;
     background: #fc3355;
     border-radius: 2.5rem;
+    text-align: center;
     font-size: 1.25rem;
     color: #fff;
+    box-sizing: border-box;
 }
 .more-btn:hover {
     width: 20%;
-}
-.more-link {
-    color: #fff;
 }
 
 
