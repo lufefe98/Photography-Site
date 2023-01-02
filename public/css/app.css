@@ -76,11 +76,11 @@ hr.hr-5 {
     margin: 0;
 }
 
-header {
+.main-header {
     position: relative;
 }
 
-header:before {
+.main-header:before {
     content: "";
     position: absolute;
     top: 0px;
