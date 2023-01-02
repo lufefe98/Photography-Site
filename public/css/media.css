@@ -1,4 +1,5 @@
 @media screen and (max-width: 1115px) {
+
   /* HOME */
   /* Main Home Page */
   .more-btn {
@@ -69,6 +70,7 @@
 
 
 @media screen and (max-width: 992px) {
+
   /* HOME */
   /* Main Home Page */
   .more-btn {
@@ -118,6 +120,12 @@
     right: 50%;
   }
 
+  /* COLLECTIONS */
+  #collections-head #collections-h1 {
+    font-size: 8rem;
+    margin-top: 5%;
+  }
+
 
   /* FOOTER */
   footer {
@@ -136,6 +144,7 @@
 
 
 @media screen and (max-width: 767px) {
+
   /* GENERAL HTML ELEMENTS */
   /* Texts */
   .main-h1 {
@@ -191,6 +200,13 @@
   /* BLOGS */
   .blog-card {
     width: 66vw;
+  }
+
+
+  /* COLLECTIONS */
+  #collections-head #collections-h1 {
+    font-size: 5rem;
+    margin-top: 5%;
   }
 
 
@@ -334,6 +350,7 @@
 
 
 @media screen and (max-width: 676px) {
+
   /* GENERAL HTML ELEMENTS */
   /* Texts */
   .main-h1 {
@@ -450,6 +467,7 @@
 
 
 @media screen and (max-width: 576px) {
+
   /* HOME */
   /* Home Head */
   .header-texts h1 {
@@ -529,6 +547,13 @@
   }
 
 
+  /* COLLECTIONS */
+  #collections-head #collections-h1 {
+    font-size: 4rem;
+    margin-top: 5%;
+  }
+
+
   /* CONTACT */
   .contact-left-header {
     position: relative;
@@ -559,6 +584,7 @@
 
 
 @media screen and (max-width: 479px) {
+
   /* GENERAL HTML */
   /* Texts */
   .left-h1 {
@@ -632,6 +658,13 @@
   }
 
 
+    /* COLLECTIONS */
+    #collections-head #collections-h1 {
+      font-size: 3rem;
+      margin-top: 5%;
+    }
+
+
   /* FOOTER */
   footer {
     height: 25%;
@@ -657,6 +690,7 @@
 
 
 @media screen and (max-width: 360px) {
+
   /* HOME */
   /* home head */
   .header-links {
@@ -672,6 +706,12 @@
   .blog-link-btn {
     font-size: 0.8rem;
   }
+
+    /* COLLECTIONS */
+    #collections-head #collections-h1 {
+      font-size: 2.5rem;
+      margin-top: 5%;
+    }
 
 
   /* FOOTER */
